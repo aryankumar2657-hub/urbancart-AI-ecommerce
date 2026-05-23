@@ -1,0 +1,144 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid #f1e7dc;
+
+  .announcement {
+    height: 34px;
+    background: linear-gradient(90deg, #111827, #7c2d12);
+    color: #fff7ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+  }
+
+  .wrapper {
+    padding: 16px 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: -1.4px;
+      color: #111827;
+    }
+
+    .tagline {
+      margin-top: 6px;
+      font-size: 12px;
+      color: #9a6653;
+      font-weight: 600;
+    }
+  }
+
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-weight: 700;
+    color: #374151;
+
+    .link {
+      position: relative;
+      padding: 8px 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: #c2410c;
+        transition: width 0.25s ease;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #374151;
+    cursor: pointer;
+  }
+
+  .searchBox {
+    min-width: 190px;
+    border: 1px solid #eadfd3;
+    border-radius: 999px;
+    padding: 9px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #9ca3af;
+    font-size: 13px;
+    background: #fffaf5;
+  }
+
+  .cartIcon {
+    position: relative;
+    background: #111827;
+    color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-size: 11px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fb923c;
+      color: white;
+      position: absolute;
+      right: -4px;
+      top: -4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .wrapper {
+      padding: 14px 20px;
+      flex-wrap: wrap;
+    }
+
+    .navLinks {
+      order: 3;
+      width: 100%;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 14px;
+    }
+
+    .searchBox {
+      display: none;
+    }
+  }
+}
