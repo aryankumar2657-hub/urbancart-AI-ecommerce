@@ -1,46 +1,43 @@
-<<<<<<< HEAD
-# UrbanCart - Full Stack E-Commerce Project
+<# PayLearn Online Course Platform
 
-UrbanCart is a resume-ready e-commerce project built with React, Redux Toolkit, Strapi CMS and MySQL. The project includes a modern storefront, product management through Strapi, cart management, checkout flow, bill generation and transaction history.
+Modern online course platform with authentication, admin dashboard, course management, secure payment workflow, bill generation, and responsive UI.
+
+## Features
+
+- User Signup/Login
+- Admin Dashboard
+- Course Management
+- Buy Now Flow
+- Customer Details Form
+- Bill Generation
+- Order History
+- Responsive UI
+- Demo Payment Integration
 
 ## Tech Stack
 
 - React.js
-- Redux Toolkit + Redux Persist
-- Strapi CMS
+- Spring Boot
 - MySQL
-- Axios
-- SCSS
+- Razorpay
+- CSS
 
-## Resume Features
+# Screenshots
 
-- Modern responsive e-commerce UI
-- Product listing from Strapi API
-- Product details page
-- Working Add to Cart
-- Quantity increase/decrease
-- Remove item from cart
-- Buy Now flow
-- Checkout form
-- Bill generation
-- Local transaction/order history
-- Print bill option
-- Persistent cart using local storage
-- Strapi product image uploads
+## Homepage
+![Homepage](screenshots/homepage.jpg)
 
-## Run Backend
+## Admin Login
+![Admin Login](screenshots/adminlogin.jpg)
 
-```bash
-cd api
-npm install
-npm run develop
-```
+## Buy Now
+![Buy Now](screenshots/buynow.jpg)
 
-Open:
+## Customer Details
+![Customer Details](screenshots/customerdetails.jpg)
 
-```text
-http://localhost:1337/admin
-```
+## Stripe Payment
+![Stripe Payment](screenshots/strip.jpg)
 
 ## Run Frontend
 
@@ -50,53 +47,10 @@ npm install
 npm start
 ```
 
-Open:
+## Run Backend
 
-```text
-http://localhost:3000
+```bash
+cd api
+npm install
+npm run develop
 ```
-
-## Frontend Environment
-
-Create `client/.env`:
-
-```env
-REACT_APP_API_URL=http://localhost:1337/api
-REACT_APP_UPLOAD_URL=http://localhost:1337
-REACT_APP_API_TOKEN=
-```
-
-## Strapi Public Permissions
-
-Go to:
-
-```text
-Settings → Users & Permissions Plugin → Roles → Public
-```
-
-Enable:
-
-```text
-Product: find, findOne
-Category: find, findOne
-SubCategory: find, findOne
-Upload: find
-```
-
-## MySQL Database
-
-The backend uses MySQL database `store` by default. Create it first:
-
-```sql
-CREATE DATABASE store;
-```
-
-Edit `api/config/database.js` with your local MySQL username/password.
-
-## Resume Line
-
-Developed a full-stack e-commerce application using React, Redux Toolkit, Strapi, and MySQL with product management, cart functionality, checkout flow, bill generation, and transaction history.
-=======
-# paylearn-online-course-platform
-Modern online course platform with authentication, admin dashboard, course management, secure payment workflow, bill generation, and responsive UI using React, Spring Boot, MySQL, and Razorpay integration.
->>>>>>> 715b696f40eb4735b00f5de0fd9f9a6d72da7114
