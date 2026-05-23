@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UrbanCart - Full Stack E-Commerce Project
 
 UrbanCart is a resume-ready e-commerce project built with React, Redux Toolkit, Strapi CMS and MySQL. The project includes a modern storefront, product management through Strapi, cart management, checkout flow, bill generation and transaction history.
@@ -95,3 +96,7 @@ Edit `api/config/database.js` with your local MySQL username/password.
 ## Resume Line
 
 Developed a full-stack e-commerce application using React, Redux Toolkit, Strapi, and MySQL with product management, cart functionality, checkout flow, bill generation, and transaction history.
+=======
+# paylearn-online-course-platform
+Modern online course platform with authentication, admin dashboard, course management, secure payment workflow, bill generation, and responsive UI using React, Spring Boot, MySQL, and Razorpay integration.
+>>>>>>> 715b696f40eb4735b00f5de0fd9f9a6d72da7114
