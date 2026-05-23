@@ -1,0 +1,17 @@
+# paylearn-online-course-platform
+
+Modern online course platform with authentication, admin dashboard, course management, secure payment workflow, bill generation, and responsive UI.
+
+# Screenshots
+
+## Home Page
+![Home](screenshots/home.jpeg)
+
+## Login Page
+![Login](screenshots/login.jpeg)
+
+## Admin Dashboard
+![Admin](screenshots/admin.jpeg)
+
+## Payment Page
+![Payment](screenshots/payment.jpeg)
