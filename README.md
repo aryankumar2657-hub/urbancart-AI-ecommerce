@@ -24,6 +24,9 @@ Modern online course platform with authentication, admin dashboard, course manag
 
 # Screenshots
 
+## 🤖 AI Shopping Assistant
+![AI Shopping Assistant](screenshots/AIShopping.jpg)
+
 ## Homepage
 ![Homepage](screenshots/homepage.jpg)
 
