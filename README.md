@@ -1,7 +1,6 @@
-<# PayLearn Online Course Platform
+<# urbancart-ai-ecommerce
 
-Modern online course platform with authentication, admin dashboard, course management, secure payment workflow, bill generation, and responsive UI.
-
+AI-powered full-stack e-commerce platform with React, Strapi, MySQL, smart shopping assistant, cart management, checkout flow, bill generation, order history, and responsive UI.
 ## Features
 
 - User Signup/Login
